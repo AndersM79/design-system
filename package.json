@@ -6,7 +6,9 @@
   "prepare": "npm run build",
   "peerDependencies": {
     "react": "16.13.x",
-    "react-dom": "16.13.x"
+    "react-dom": "16.13.x",
+    "styled-components": "5.1.x",
+    "styled-theming": "2.2.x"
   },
   "scripts": {
     "test": "react-scripts test",
@@ -46,8 +48,4 @@
     "react-scripts": "3.4.1",
     "rimraf": "^3.0.2"
   },
-  "dependencies": {
-    "styled-components": "^5.1.1",
-    "styled-theming": "^2.2.0"
-  }
 }
