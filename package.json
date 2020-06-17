@@ -12,7 +12,7 @@
     "test": "react-scripts test",
     "storybook": "start-storybook -p 9009",
     "clean": "rimraf dist",
-    "build": "npm run clean && cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "npm run clean && cross-env NODE_ENV=production babel src/lib --out-dir dist",
     "build-storybook": "build-storybook"
   },
   "eslintConfig": {
@@ -31,11 +31,6 @@
     ]
   },
   "devDependencies": {
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@storybook/addon-actions": "^5.3.19",
@@ -43,7 +38,16 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.1",
     "@storybook/react": "^5.3.19",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "cross-env": "^7.0.2",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.1",
+    "styled-theming": "^2.2.0"
   }
 }

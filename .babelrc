@@ -1,3 +1,10 @@
 {
-  "presets": [["react-app", { "absoluteRuntime": false }]]
+  "presets": [["react-app", { "absoluteRuntime": false }]],
+    "ignore": [
+      "src/**/*.stories.js",
+      "src/**/*.test.js",
+      "src/**/*.spec.js",
+      "src/**/*__snapshots__",
+      "src/**/*__tests__"
+    ]
 }

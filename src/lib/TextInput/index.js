@@ -1,14 +1,16 @@
 import React from "react";
 
+import { Input, Wrapper, Label} from "./styled";
+
 const TextInput = ({ type = "text", label, value, onChange }) => (
-  <div>
-    {label && <label>{label}</label>}
-    <input
+  <Wrapper>
+    {label && <Label>{label}</Label>}
+    <Input
       type={type}
       value={value}
       onChange={(e) => onChange && onChange(e.target.value)}
     />
-  </div>
+  </Wrapper>
 );
 
 export default TextInput;
