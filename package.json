@@ -7,9 +7,7 @@
     "react": "16.13.x",
     "react-dom": "16.13.x",
     "styled-components": "5.1.x",
-    "styled-theming": "2.2.x",
-    "cross-env": "7.0.x",
-    "rimraf": "3.0.x"
+    "styled-theming": "2.2.x"
   },
   "scripts": {
     "test": "react-scripts test",
@@ -47,5 +45,6 @@
     "@testing-library/user-event": "^7.1.2",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "rimraf": "^3.0.2"
   }
 }
